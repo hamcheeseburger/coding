@@ -6,6 +6,7 @@ from collections import Counter
 participant = ["mislav", "stanko", "mislav", "ana", "romi", "romi"]
 completion = ["stanko", "ana", "mislav", "mislav", "romi"]
 
+
 def solution(participant, completion):
     parCounter = dict(Counter(participant))
     comCounter = dict(Counter(completion))

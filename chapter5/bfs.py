@@ -1,0 +1,36 @@
+from collections import deque
+
+info = [
+    [],
+    [2, 3, 8],
+    [1, 7],
+    [1, 4, 5],
+    [3, 5],
+    [3, 4],
+    [7],
+    [2, 6, 8],
+    [1, 7]
+]
+
+visited = [False] * 9
+q = deque()
+
+
+def bfs(node):
+    if visited[node] is False:
+        visited[node] = True
+        print(node, end=' ')
+    else:
+        q.popleft()
+
+    for n in info[node]:
+        if visited[n] is False:
+            visited[n] = True
+            q.append(n)
+            print(n, end=' ')
+
+    if len(q) != 0:
+        bfs(q[0])
+
+
+bfs(1)
