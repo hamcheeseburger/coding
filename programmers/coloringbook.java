@@ -1,5 +1,5 @@
-// 프로그래머스 카카오프렌즈 컬러링북
-
+// 프로그래머스 카카오프렌즈 컬러링북 (210628)
+// https://programmers.co.kr/learn/courses/30/lessons/1829
 import java.util.ArrayList;
 import java.util.Collections;
 class Solution {
