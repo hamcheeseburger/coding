@@ -1,5 +1,6 @@
 // 프로그래머스 카카오프렌즈 컬러링북 (210628)
 // https://programmers.co.kr/learn/courses/30/lessons/1829
+
 import java.util.ArrayList;
 import java.util.Collections;
 class Solution {
@@ -92,16 +93,6 @@ class Solution {
 
         check(m, n, picture, 0, 0);
 
-        // for(int i = 0; i < m; i++) {
-        //     for(int j = 0; j < n; j++) {
-        //         //System.out.print(visited[i][j] + " ");
-        //     }
-        //     //System.out.println();
-        // }
-
-        for(int i = 0; i < area.size(); i++) {
-            System.out.print(area.get(i) + " ");
-        }
 
         //System.out.println("영역개수 : " + area.size());
         Collections.sort(area, Collections.reverseOrder());

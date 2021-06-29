@@ -1,10 +1,11 @@
 # 프로그래머스 124 나라의 숫자 (210628)
 # https://programmers.co.kr/learn/courses/30/lessons/12899
+
 def solution(n):
     match_list = [4, 1, 2]
     size = 1
     num = 0
-
+    # n의 자릿수 구하기
     while n > ((3**size) + num):
         num = 3**size
         size += 1
