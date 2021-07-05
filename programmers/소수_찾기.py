@@ -29,7 +29,7 @@ def solution(numbers):
 
     set_list = set(set_list)
     for ele in set_list:
-        if prime_number(ele):
+        if isPrime(ele):
             answer += 1
 
     return answer
