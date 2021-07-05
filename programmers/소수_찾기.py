@@ -4,12 +4,12 @@
 from itertools import permutations
 
 
-def prime_number(number):
-    if number <= 1:
+# 에라토스테네스의 체의 원리 사용
+def isPrime(n):
+    if n <= 1:
         return False
-
-    for f in range(2, number):
-        if number % f == 0:
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
             return False
 
     return True
