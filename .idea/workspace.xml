@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7767844b-e1a0-4001-9d20-4d143191fba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/answer/programmers/예상대진표.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/예상대진표.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/version.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
