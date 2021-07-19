@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7767844b-e1a0-4001-9d20-4d143191fba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging/version.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/answer/programmers/튜플.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/튜플.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1v7kh1Z9zjM4veuB5MqL7K4J4Dk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
