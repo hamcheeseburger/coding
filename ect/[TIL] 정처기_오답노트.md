@@ -640,6 +640,20 @@ p.3-154 13번
 전역 스키마, 분할 스키마, 할당 스키마, 지역 스키마
 
 
+---
+p.4-14 3번
+
+다음 중 가장 결합도가 강한 것은?
+
+1. Data Coupling
+2. Stamp Coupling
+3. Common Coupling
+4. Control Coupling
+
+정답 3번
+
+결합도가 강한 것은 모듈의 독립성이 낮은 것을 뜻한다.
+
 
 
 
