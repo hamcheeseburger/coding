@@ -1,5 +1,5 @@
 from collections import deque
-
+# 인접 행렬 방식
 info = [
     [],
     [2, 3, 8],
@@ -23,13 +23,13 @@ def bfs(node):
     else:
         q.popleft()
 
-    for n in info[node]:
+    for n in info[node]: # 자식 노드 방문
         if visited[n] is False:
             visited[n] = True
             q.append(n)
             print(n, end=' ')
 
-    if len(q) != 0:
+    if len(q) != 0: # 제일 왼쪽에 있던 자식 부터 다시 bfs 시작
         bfs(q[0])
 
 
