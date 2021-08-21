@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5a8c32b-4593-4e97-bd73-bf1fbc73a4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter8/1로 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter8/개미 전사.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter8/개미 전사.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/개미 전사.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

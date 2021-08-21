@@ -22,6 +22,8 @@ n = int(input())
 arr = list(map(int, input().split()))
 
 dpGraph = [0] * n
+dpGraph[0] = arr[0]
+dpGraph[1] = max(arr[0], arr[1])
 for i in range(2, n):
     dpGraph[i] = max(dpGraph[i-1], dpGraph[i-2] + arr[i]) # 현재 창고를 못터는 경우, 현재 창고를 털 수 있는 경우
 
