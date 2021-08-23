@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8c32b-4593-4e97-bd73-bf1fbc73a4d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter8/바닥 공사.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/효율적인 화폐 구성.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +48,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.바닥 공사">
+  <component name="RunManager" selected="Python.효율적인 화폐 구성">
+    <configuration name="효율적인 화폐 구성" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter8/효율적인 화폐 구성.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="미로 탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,11 +246,11 @@
       <item itemvalue="Python.이진탐색" />
       <item itemvalue="Python.떡볶이 떡 만들기" />
       <item itemvalue="Python.1로 만들기" />
-      <item itemvalue="Python.바닥 공사" />
+      <item itemvalue="Python.효율적인 화폐 구성" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.바닥 공사" />
+        <item itemvalue="Python.효율적인 화폐 구성" />
         <item itemvalue="Python.1로 만들기" />
         <item itemvalue="Python.떡볶이 떡 만들기" />
         <item itemvalue="Python.이진탐색" />
@@ -238,5 +280,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom" timestamp="1629728516113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629728516113" />
+    <state width="1899" height="347" key="GridCell.Tab.0.center" timestamp="1629728516112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629728516112" />
+    <state width="1899" height="347" key="GridCell.Tab.0.left" timestamp="1629728516112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629728516112" />
+    <state width="1899" height="347" key="GridCell.Tab.0.right" timestamp="1629728516112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629728516112" />
+    <state x="526" y="120" key="SettingsEditor" timestamp="1629726941797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="120" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629726941797" />
   </component>
 </project>
