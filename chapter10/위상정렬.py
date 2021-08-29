@@ -9,7 +9,7 @@ n, m = map(int, input().split())
 
 income_count = [0] * (n + 1) # 진입 차수
 graph = [[] for i in range(n + 1)]
-# 모든 간선 정보 입력 받기 (a에서 b까지 가는 간선치가 c)
+
 for _ in range(m):
     a, b = map(int, input().split())
     graph[a].append(b)
