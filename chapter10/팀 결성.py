@@ -1,3 +1,4 @@
+# p.298
 def find_root_parent(parent, a):
     if parent[a] != a:
         parent[a] = find_root_parent(parent, parent[a])

@@ -1,4 +1,6 @@
+# p. 303
 from collections import deque
+import copy
 
 n = int(input())
 
@@ -19,16 +21,13 @@ for i in range(1, n + 1):
     if income_cost[i] == 0:
         deq.append(i)
 
-result = [0] * (n + 1)
-
-for ele in deq: # 처음 deq에 들어가는 과목들에 해당하는 총 수강 시간을 초기화함
-    result[ele] = cost[ele]
+result = copy.deepcopy(cost)
 
 while deq:
     ele = deq.popleft()
     for connected in graph[ele]:
         income_cost[connected] -= 1
-        result[connected] = result[ele] + cost[connected]
+        result[connected] = max(result[connected], result[ele] + cost[connected])
 
         if income_cost[connected] == 0:
             deq.append(connected)
