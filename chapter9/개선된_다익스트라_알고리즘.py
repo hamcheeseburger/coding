@@ -26,7 +26,7 @@ def dijkstra(start):
 
     distance[start] = 0
     while pqueue: # 시작 노드를 제외한 전체 노드에 대해 반복
-        dist, now = heapq.heappop(pqueue)
+        dist, now = heapq.heappop(pqueue) # (우선순위 큐) 연결된 노드들 중 간선이 제일 짧은 노드를 먼저 반환
 
         if distance[now] < dist: # 현재 노드까지의 최단 거리를 찾는 것이기 때문에.. 최소값이 갱신이 되지 않으면 더 볼 필요가 없음
             continue
@@ -36,6 +36,7 @@ def dijkstra(start):
             if cost < distance[j[0]]:
                 distance[j[0]] = cost
                 heapq.heappush(pqueue, (cost, j[0])) # (비용, 노드) => 노드까지 도달하는 비용
+
 
 dijkstra(start)
 
