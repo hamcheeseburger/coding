@@ -1,5 +1,8 @@
 from collections import deque
 
+# dfs로 시도했으나 recursion error가 발생하여 loop로 풀 수 있는 방법을 생각함
+# bfs 방식으로 시도하니까 해결됨
+
 
 def bfs(list_map, col, row, M, N):
     if not list_map[row][col]:
