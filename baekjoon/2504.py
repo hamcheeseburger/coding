@@ -5,6 +5,7 @@ def checkMatch(ele, poped):
         return 2
     return 0
 
+
 def sumNum(stack):
     index = 0
     num = 0
@@ -16,6 +17,7 @@ def sumNum(stack):
     if num != 0:
         stack[index] = str(num)
         del stack[index+1]
+
 
 input_list = list(input())
 stack = []
